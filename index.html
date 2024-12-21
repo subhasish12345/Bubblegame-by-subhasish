@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game By SUBHU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="outer-box">
+            <div class="navbar">
+                <div class="hits mr-2">
+                    <h3>Now Hit</h3>
+                    <p class="value-box hitsvalue">1</p>
+                </div>
+                <div class="time mr-2">
+                    <h3>Time</h3>
+                    <p class="value-box timer">30</p>
+                </div>
+                <div class="score mr-2">
+                    <h3>Score</h3>
+                    <p class="value-box scoreValue">0</p>
+                </div>
+                <div class="level mr-2">
+                    <h3>Level</h3>
+                    <p class="value-box levelValue">1</p>
+                </div>
+                <button class="pause-btn" onclick="togglePause()">Pause</button>
+
+            </div>
+            <div class="content">
+                <div class="Starting">
+                    <button class="starting-text" onclick="Startingfun()">Start</button>
+                </div>
+            </div>
+        </div>
+        <div class="leaderboard">
+            <h3>Leaderboard</h3>
+            <ul id="leaderboard-list"></ul>
+        </div>
+    </div>
+    <div class="navbar">
+        <!-- Existing Stats -->
+        <div class="hits mr-2">
+            <h3>Hits</h3>
+            <p class="value-box hitsvalue">1</p>
+        </div>
+        <div class="time mr-2">
+            <h3>Time</h3>
+            <p class="value-box timer">30</p>
+        </div>
+        <div class="score mr-2">
+            <h3>Total Score</h3>
+            <p class="value-box scoreValue">0</p>
+        </div>
+        <div class="level mr-2">
+            <h3>Level</h3>
+            <p class="value-box levelValue">1</p>
+        </div>
+        <!-- New Stats -->
+        <div class="level-score mr-2">
+            <h3>Level Score</h3>
+            <p class="value-box levelScoreValue">0</p>
+        </div>
+        <div class="accuracy mr-2">
+            <h3>Accuracy</h3>
+            <p class="value-box accuracyValue">100%</p>
+        </div>
+       
+    </div>
+</div>
+<p>This game was created by <strong>SUBHASISH</strong></p>
+   
+</div>
+   
+    <script src="index.js"></script>
+</body>
+ 
+    
+</html>
+<!-- <footer class="footer">
+        <p>This game was created by <strong>SUBHASISH</strong></p>
+    </footer>
+     -->
